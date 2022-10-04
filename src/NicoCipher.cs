@@ -1,8 +1,4 @@
-﻿
-using System.Collections.Generic;
-using System.Linq;
-
-namespace Assignments2
+﻿namespace CSharp.Assignment.Part2
 {
     public class NicoCipher
     {
@@ -32,10 +28,8 @@ namespace Assignments2
             dictionary = dictionary.OrderBy(x => x.Key).ToList();
 
             for (int i = 0; i < dictionary.First().Value.Length; i++)
-            {
                 foreach (var item in dictionary)
                     outputString += item.Value[i];
-            }
 
             return outputString;
         }

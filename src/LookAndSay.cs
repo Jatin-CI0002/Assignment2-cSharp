@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace Assignments2
+namespace CSharp.Assignment.Part2
 {
     public class LookAndSay
     {

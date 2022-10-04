@@ -1,11 +1,10 @@
-﻿namespace Assignments2
+﻿namespace CSharp.Assignment.Part2
 {
     public class PilishStrings
     {
         public static string CreatePilishString(string input)
         {
             string Pi = "314159265358979";
-            //int[] Pi = new int[15] { 3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5, 8, 9, 7, 9 };
             int index = 0;
             int piIndex = 0;
             string output = "";

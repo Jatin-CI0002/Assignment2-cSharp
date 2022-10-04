@@ -1,8 +1,8 @@
-﻿namespace Assignments2
+﻿namespace CSharp.Assignment.Part2
 {
     class Program
     {
-        static void Main(string[] args)
+            public static void Main(string[] args)
         {
             Console.WriteLine("Enter the Problem statement Index");
             Console.WriteLine("1. Farey Sequence");
